@@ -1,0 +1,131 @@
+// {
+//   "extends": "next/core-web-vitals"
+// }
+{
+  "env": {
+    "browser": true,
+    "es2020": true,
+    "node": true
+  },
+  //
+  "root": true,
+  "ignorePatterns": [
+    "dist",
+    ".eslintrc.cjs",
+    ".eslintrc.json",
+    ".eslintrc.js"
+  ],
+  "settings": {
+    "react": {
+      "version": "18.2.0"
+    }
+  },
+  "plugins": [
+    "react-refresh"
+  ],
+  "rules": {
+    // "@next/next/no-img-element": "off",
+    // "react/display-name": "off",
+    // "react/no-unescaped-entities": "off",
+    // "@typescript-eslint/no-empty-function": "off",
+    // "@typescript-eslint/no-empty-interface": "off",
+    // "@typescript-eslint/no-unused-vars": "off",
+    // "@typescript-eslint/no-explicit-any": "off",
+    // "react/prop-types": "off"
+    // "react-refresh/only-export-components": [
+    //   "warn",
+    //   {
+    //     "allowConstantExport": true
+    //   }
+    // ],
+    // "react/jsx-uses-react": 2,
+    // "react/jsx-uses-vars": "error"
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "extends": [
+    "next/core-web-vitals",
+    "prettier",
+    "eslint:recommended"
+    // "plugin:@typescript-eslint/recommended",
+    // "plugin:react-hooks/recommended"
+    // "plugin:react/recommended",
+    // "plugin:react/jsx-runtime"
+  ]
+  // "rules": {
+  //   "@next/next/no-img-element": "off",
+  //   "react/display-name": "off",
+  //   "react/no-unescaped-entities": "off",
+  //   "@typescript-eslint/no-empty-function": "off",
+  //   "@typescript-eslint/no-empty-interface": "off",
+  //   "@typescript-eslint/no-unused-vars": "off",
+  //   "@typescript-eslint/no-explicit-any": "off",
+  //   "no-console": 2,
+  //   "padding-line-between-statements": [
+  //     "error",
+  //     {
+  //       "blankLine": "always",
+  //       "prev": [
+  //         "const",
+  //         "let",
+  //         "var"
+  //       ],
+  //       "next": "*"
+  //     },
+  //     {
+  //       "blankLine": "any",
+  //       "prev": [
+  //         "const",
+  //         "let",
+  //         "var"
+  //       ],
+  //       "next": [
+  //         "const",
+  //         "let",
+  //         "var"
+  //       ]
+  //     },
+  //     {
+  //       "blankLine": "any",
+  //       "prev": [
+  //         "case",
+  //         "default"
+  //       ],
+  //       "next": "break"
+  //     },
+  //     {
+  //       "blankLine": "any",
+  //       "prev": "case",
+  //       "next": "case"
+  //     },
+  //     {
+  //       "blankLine": "always",
+  //       "prev": "*",
+  //       "next": "return"
+  //     },
+  //     {
+  //       "blankLine": "always",
+  //       "prev": "block",
+  //       "next": "*"
+  //     },
+  //     {
+  //       "blankLine": "always",
+  //       "prev": "*",
+  //       "next": "block"
+  //     },
+  //     {
+  //       "blankLine": "always",
+  //       "prev": "block-like",
+  //       "next": "*"
+  //     },
+  //     {
+  //       "blankLine": "always",
+  //       "prev": "*",
+  //       "next": "block-like"
+  //     }
+  //   ]
+  // }
+}
